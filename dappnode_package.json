@@ -1,7 +1,7 @@
 {
   "name": "mysteriumnode.avado.dnp.dappnode.eth",
   "version": "0.0.47",
-  "upstream": "0.46.1",
+  "upstream": "0.47.0",
   "description": "The Mysterium package turns your AVADO box into a VPN endpoint. VPN traffic is provided by the Mysterium Network. You can earn crypto by renting out your spare internet bandwidth at home.",
   "avatar": "/ipfs/QmYD3KaSxTm8R269CjzXRUGNRqBJQxGAmtPMHwsMYH1vTX",
   "type": "service",
