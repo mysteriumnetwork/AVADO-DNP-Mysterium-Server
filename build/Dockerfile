@@ -10,7 +10,8 @@ WORKDIR /cert
 RUN wget http://iso.ava.do/server.crt
 RUN wget http://iso.ava.do/server.key
 
-FROM mysteriumnetwork/myst:0.47.1-alpine
+FROM mysteriumnetwork/myst:0.47.2-alpine
+
 RUN apk update
 RUN apk add nginx jq
 COPY files/start.sh /opt/start.sh
