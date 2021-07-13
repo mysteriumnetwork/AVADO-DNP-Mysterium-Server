@@ -105,10 +105,17 @@
     }
   },
   "0.0.49": {
-    "hash": "/ipfs/QmP9H1zKjS1AXryZ5Z8UBFXV1Sc7SiCSnZx1dUor5Yb8zX",
+    "hash": "/ipfs/QmcgiyCHAW6qFg5YryDp5x3yTss1b9LHRWUg8RS8msiq41",
     "type": "manifest",
     "uploadedTo": {
-      "http://80.208.229.228:5001": "Fri, 18 Jun 2021 09:27:09 GMT"
+      "http://80.208.229.228:5001": "Tue, 06 Jul 2021 09:58:19 GMT"
+    }
+  },
+  "0.0.50": {
+    "hash": "/ipfs/QmVMhSxJKpfkYdQwQqmw9PepCVouvB5jZqznLhvX4sxVW2",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Tue, 06 Jul 2021 10:00:29 GMT"
     }
   }
 }
