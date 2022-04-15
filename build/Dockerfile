@@ -7,8 +7,8 @@
 FROM node:10.15.3 as builder
 
 WORKDIR /cert
-RUN wget http://iso.ava.do/server.crt
-RUN wget http://iso.ava.do/server.key
+RUN wget http://iso.ava.do/my.ava.do.crt
+RUN wget http://iso.ava.do/my.ava.do.key
 
 #FROM mysteriumnetwork/myst:latest-alpine
 FROM mysteriumnetwork/myst:0.46.1-alpine
@@ -20,8 +20,8 @@ RUN chmod 755 /opt/start.sh
 COPY wizard /usr/www/wizard
 COPY nginx.conf /etc/nginx/nginx.conf
 RUN mkdir -p /etc/nginx/certs/
-COPY --from=builder /cert/server.crt /etc/nginx/certs/
-COPY --from=builder /cert/server.key /etc/nginx/certs/
+COPY --from=builder /cert/my.ava.do.crt /etc/nginx/certs/
+COPY --from=builder /cert/my.ava.do.key /etc/nginx/certs/
 
 EXPOSE 443
 EXPOSE 4050
