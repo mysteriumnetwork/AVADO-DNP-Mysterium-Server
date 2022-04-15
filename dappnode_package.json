@@ -8,9 +8,6 @@
   "autoupdate": true,
   "title": "Mysterium node",
   "image": {
-    "path": "mysteriumnode.avado.dnp.dappnode.eth_0.0.47.tar.xz",
-    "hash": "/ipfs/QmahbVvvDBRHyqkXDV2mU9Hn6k7YZ2wmnYV7zQaca8UKUX",
-    "size": 20391228,
     "ports": [
       "1294:1294/udp",
       "4449:4449"
@@ -24,7 +21,6 @@
   "author": "AVADO",
   "license": "(c)",
   "links": {
-    "OnboardingWizard": "http://mysteriumnode.avadopackage.com"
-  },
-  "builddate": "2021-05-13T06:51:03.693Z"
+    "OnboardingWizard": "http://mysteriumnode.my.ava.do"
+  }
 }
