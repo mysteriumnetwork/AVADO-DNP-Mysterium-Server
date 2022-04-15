@@ -19,7 +19,7 @@ echo "Starting myst on port $VPN_PORT"
 /usr/local/bin/prepare-run-env.sh 
 
 #Wireguard
-/usr/bin/myst --vendor.id="AVADO" --ui.enable --tequilapi.address=0.0.0.0 --data-dir=$OS_DIR_DATA service --agreed-terms-and-conditions wireguard
+/usr/bin/myst --vendor.id="AVADO" --tequilapi.allowed-hostnames=".localhost, localhost, .localdomain, mysterium.my.ava.do" --data-dir=$OS_DIR_DATA service --agreed-terms-and-conditions wireguard
 
 echo "myst exited... wait 5m"
 sleep 600
