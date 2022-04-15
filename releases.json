@@ -91,10 +91,10 @@
     }
   },
   "0.0.47": {
-    "hash": "/ipfs/QmcPjJqk3tnGbRCBSheXxq5dcwiRp9Y9wu2CyJe6WjqyjW",
+    "hash": "/ipfs/QmYr9o42DfeQjetXqcgZNoNBkZHhKkbPcm1VUf1hETnRUm",
     "type": "manifest",
     "uploadedTo": {
-      "dappnode": "Fri, 15 Apr 2022 10:55:11 GMT"
+      "http://80.208.229.228:5001": "Fri, 15 Apr 2022 11:46:15 GMT"
     }
   }
 }
