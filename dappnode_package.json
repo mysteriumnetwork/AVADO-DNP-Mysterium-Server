@@ -8,9 +8,6 @@
   "autoupdate": true,
   "title": "Mysterium node",
   "image": {
-    "path": "mysteriumnode.avado.dnp.dappnode.eth_0.0.62.tar.xz",
-    "hash": "/ipfs/QmeoLnzwmjXkF3AhdGLJUNrYXZKj6URGvMD8fT8MRZmjgW",
-    "size": 18700896,
     "ports": [
       "1294:1294/udp",
       "4449:4449"
