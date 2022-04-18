@@ -4,7 +4,7 @@ volumes:
 services:
   mysteriumnode.avado.dnp.dappnode.eth:
     container_name: mysteriumnode.avado.dnp.dappnode.eth
-    image: 'mysteriumnode.avado.dnp.dappnode.eth:0.0.62'
+    image: 'mysteriumnode.avado.dnp.dappnode.eth:0.0.65'
     build: ./build
     volumes:
       - 'mysterium_data:/data/mysterium'
