@@ -11,7 +11,7 @@ RUN wget http://iso.ava.do/my.ava.do.crt
 RUN wget http://iso.ava.do/my.ava.do.key
 
 
-FROM mysteriumnetwork/myst:1.6.4-alpine
+FROM mysteriumnetwork/myst:1.6.7-alpine
 
 RUN apk update
 RUN apk add nginx jq
