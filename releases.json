@@ -348,5 +348,19 @@
     "uploadedTo": {
       "http://80.208.229.228:5001": "Mon, 22 May 2023 14:40:28 GMT"
     }
+  },
+  "0.0.86": {
+    "hash": "/ipfs/QmSNVJhwYbYZ79bgtvjANp5t9azMEnBFLvS6gphCeN2D91",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Thu, 01 Jun 2023 09:27:24 GMT"
+    }
+  },
+  "0.0.87": {
+    "hash": "/ipfs/QmYBB8cbo62qTGqnzoK4r33nQdatJnuMVBa4N8T6cFE7aJ",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Tue, 20 Jun 2023 13:53:09 GMT"
+    }
   }
 }
