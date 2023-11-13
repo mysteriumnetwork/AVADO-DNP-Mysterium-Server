@@ -10,7 +10,7 @@ WORKDIR /cert
 RUN wget http://iso.ava.do/my.ava.do.crt
 RUN wget http://iso.ava.do/my.ava.do.key
 
-FROM mysteriumnetwork/myst:1.25.5-alpine
+FROM mysteriumnetwork/myst:1.29.0-alpine
 
 
 RUN apk update
